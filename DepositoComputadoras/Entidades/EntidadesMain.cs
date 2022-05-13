@@ -8,5 +8,6 @@ namespace Entidades
 {
     public class EntidadesMain
     {
+        public List<Producto> ListaProductos { get; set; }
     }
 }
