@@ -7,7 +7,12 @@ using System.Threading.Tasks;
 
 namespace ArgEventos
 {
-    public class EventosMain
+    public class EventosMain : EventArgs
     {
+        public List<string> Lista { get; set; }
+        public string Mensaje { get; set; }
+        public int CantComputadoras { get; set; }
+        public int CantMonitores { get; set; }
     }
+
 }

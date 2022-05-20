@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Computadora.cs" />
-    <Compile Include="EntidadesMain.cs" />
+    <Compile Include="Enumeradores.cs" />
     <Compile Include="Pantalla.cs" />
     <Compile Include="Producto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -11,12 +11,14 @@ namespace Entidades
         public string Modelo { get; set; }
         public string Marca { get; set; }
         public int NroSerie { get; set; }
-        public string Identificador { get; private set; } //se autocraftea con modelo-marca-serie
+        public string Identificador { get { return $"{Modelo}-{Marca}-{NroSerie}"; } }
         public Producto(string modelo, string marca, int nroSerie)
         {
             Modelo = modelo;
             Marca = marca;
             NroSerie = nroSerie;
         }
+        public abstract string CadenaListado();
     }
+}
 }
